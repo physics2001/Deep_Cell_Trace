@@ -94,7 +94,7 @@ print(y_train.shape)
 print(y_val.shape)
 print(y_test.shape)
 
-
+# Save data in compressed h5 format
 with h5py.File('1000_Genes_Logged_Time_Series_With_Monocyte_Neutrophil_Two_Classes.h5', 'a') as FOB: 
     FOB.create_dataset("X", data=X, dtype='f')
     FOB.create_dataset("y", data=y, dtype='f')
