@@ -5,6 +5,7 @@
 The folder structure and content are listed below. This repository provides the most preliminary code that are all python scripts. To run the scripts, the easiest way is to copy each script to the same folder to run. The first scripts to look at are in 📁Data_Generation folder which first will generate the required data for model training and testing. Then, we can look at the 📁Autoencoders folder to train autoencoders to produice encoded data. Next, 📁Classification_Model_Training_On_Hematopoesis, 📁Classification_Model_Training_On_Hematopoesis, 📁Regression_Model_Training_On_Hematopoesis, and 📁Regression_Model_Training_On_Reprogramming folders contain scripts to train different classification and regression models. After training the models, the saved models can be used with scripts in 📁Perturbation_On_Hematopoesis, 📁Perturbation_On_Reprogramming, and 📁Ablation folders to perform perturbation and ablation studies. 📁Plot folder contains scripts that can reproduce the plots used in the paper given the results are already generated. 
 
 ## Folder Structure and Content
+```
 └── 📁Deep_Cell_Trace
     └── 📁Ablation: Scripts related to ablation studies
         └── Ablate_Encoded_Hemato_Classification.py
@@ -86,3 +87,4 @@ The folder structure and content are listed below. This repository provides the 
         └── Train_Regression_On_Reprogramming_Time_Series_Two_Classes_Day21.py
         └── Train_Regression_On_Reprogramming_Time_Series_Two_Classes_Day21_With_All_Other_Days.py
         └── Train_Regression_On_Reprogramming_Time_Series_Two_Classes_Day28.py
+```
